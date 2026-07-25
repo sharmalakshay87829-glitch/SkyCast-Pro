@@ -77,7 +77,7 @@ SkyCast-Pro/
 Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/SkyCast-Pro.git
+git clone https://github.com/sharmalakshay87829-glitch/SkyCast-Pro.git
 ```
 
 Move into the project folder
