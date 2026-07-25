@@ -1,0 +1,5 @@
+streamlit
+requests
+streamlit-option-menu
+streamlit-extras
+streamlit-lottie
