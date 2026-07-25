@@ -16,7 +16,13 @@ https://your-project.onrender.com
 
 ## 📸 Screenshots
 
-(Add screenshots of your application here)
+<img width="1920" height="1020" alt="skycast home" src="https://github.com/user-attachments/assets/b3c70a9d-7322-4b9d-814d-24a7617ebf70" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-25 235453" src="https://github.com/user-attachments/assets/23147633-8e4a-4f8f-a7a1-fb8681f39247" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-25 212355" src="https://github.com/user-attachments/assets/1de1b5b0-06ab-4545-b0c1-dd4aa146c666" />
+<img width="1920" height="1020" alt="Screenshot 2026-07-25 235752" src="https://github.com/user-attachments/assets/3de10de2-2a72-49bc-a2ce-d111eb1293fd" />
+
+
+
 
 ---
 
