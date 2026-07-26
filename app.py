@@ -1,6 +1,7 @@
 import streamlit as st
 import requests
 from datetime import datetime
+from zoneinfo import ZoneInfo
 from config import API_KEY
 
 from streamlit_option_menu import option_menu
@@ -66,7 +67,7 @@ with st.sidebar:
     #  Current Time
      st.subheader("🕒 Current Time")
 
-     current_time = datetime.now()
+     current_time = datetime.now(ZoneInfo("Asia/Kolkata"))
 
      st.write(current_time.strftime("%I:%M %p"))
 
