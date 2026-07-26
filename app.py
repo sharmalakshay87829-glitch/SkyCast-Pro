@@ -161,8 +161,10 @@ if selected == "Weather":
         sunset = data["sys"]["sunset"]
         visibility = data["visibility"]
 
-        sunrise_time = datetime.fromtimestamp(sunrise).strftime("%I:%M %p")
-        sunset_time = datetime.fromtimestamp(sunset).strftime("%I:%M %p")
+        timezone_offset = data["timezone"]
+        
+        sunrise_time = datetime.utcfromtimestamp(sunrise + timezone_offset).strftime("%I:%M %p")
+        sunset_time = datetime.utcfromtimestamp(sunset + timezone_offset).strftime("%I:%M %p")
 
         current_hour = datetime.now().hour
 
