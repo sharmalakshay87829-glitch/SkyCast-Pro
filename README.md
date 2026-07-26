@@ -116,7 +116,7 @@ API_KEY = "YOUR_API_KEY"
 
 **Lakshay Sharma**
 
-📧 LinkedIn: (Add your LinkedIn profile)
+📧 LinkedIn: www.linkedin.com/in/lakshaysharma07
 
 💻 GitHub: https://github.com/sharmalakshay87829-glitch
 
