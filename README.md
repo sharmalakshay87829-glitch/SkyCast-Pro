@@ -6,11 +6,7 @@ A professional real-time weather forecasting web application built using **Pytho
 
 ## 🚀 Live Demo
 
-(Add your Render deployment link here)
-
-Example:
-
-https://your-project.onrender.com
+https://skycast-pro-oj5k.onrender.com
 
 ---
 
