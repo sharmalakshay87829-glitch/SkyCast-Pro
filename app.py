@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import time
 from datetime import datetime
 from zoneinfo import ZoneInfo
 from config import API_KEY
@@ -166,7 +167,7 @@ if selected == "Weather":
         sunrise_time = datetime.utcfromtimestamp(sunrise + timezone_offset).strftime("%I:%M %p")
         sunset_time = datetime.utcfromtimestamp(sunset + timezone_offset).strftime("%I:%M %p")
 
-        current_hour = datetime.now().hour
+        current_hour = datetime.utcfromtimestamp(time.time() + timezone_offset).hour
 
         if current_hour < 12:
          greeting = "🌅 Good Morning"
