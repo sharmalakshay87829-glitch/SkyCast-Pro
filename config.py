@@ -1,1 +1,3 @@
-API_KEY = "3949f109eb49bc2ce6774d899ac0153c"
+import os
+
+API_KEY = os.getenv("API_KEY")
